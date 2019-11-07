@@ -160,7 +160,7 @@
 		</form>
 		
 		
-		<p id="comosehizo"><a href="p2.pdf" target="_blank"><i>¿Cómo se hizo?</i><sup>[PDF]</sup></a></p>
+		<p id="comosehizo"><a href="docu.pdf" target="_blank"><i>¿Cómo se hizo?</i><sup>[PDF]</sup></a></p>
 	</footer>
 	
 	

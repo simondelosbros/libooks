@@ -1,0 +1,117 @@
+.usuario{
+	float: left;
+	width: 96%;
+	height: auto;
+	
+	padding: 50px 50px;
+	margin: 0 2%;
+	
+	padding-bottom:10px;
+
+	border: groove var(--boton);
+	border-radius: 10px;
+	background-color: var(--columna);
+}
+
+#altausuario{
+	float: left;
+	width: 100%;
+	font-size: 1.2em;
+}
+
+#altausuario label{
+	float: left;
+	width: 49%;
+	
+	padding: 5px;
+	margin: 0.5%;
+}
+
+#boton_gurdu{
+	float:right;
+	padding: 8px 36px;
+	
+	margin-top: 20px;
+	
+	font-size: 1em;
+	
+	font-variant: small-caps;
+	color:white;	
+	background-color: var(--boton);
+	border: groove var(--boton);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#boton_gurdu:hover, #anterior:hover, #valorar:hover, #siguiente:hover{
+	background-color: var(--boton_seleccion);
+	border: groove var(--boton_seleccion);
+	border-radius: 10px;
+}
+
+#nota{
+	float: left;
+	font-size: 0.7em;
+}
+
+.user_img{
+	float:left;
+	width:120px;
+	box-shadow: 6px 6px 2px grey;
+	margin-top:30px;
+	margin-right:20px;
+}
+
+#fotos > input{
+	float:left;
+	margin-top:90px;
+}
+
+.small_user_img{
+	float:left;
+	width:90px;
+	margin-top:-10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	box-shadow: 6px 6px 2px grey;
+}
+
+#libros_subidos{
+	position:absolute;
+	display:none;
+	width:300px;
+	min-height:200px;
+	padding:10px;
+	margin-left:75px;
+	margin-top:70px;
+	font-size:0.9em;
+	background-color:var(--cabecera1);
+	box-shadow: 6px 6px 2px grey;
+	border: groove var(--boton);
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+	.usuario{
+		padding:20px;
+	}
+	
+	#altausuario{
+		font-size:1em;
+	}
+	
+	.user_img{
+		width:75px;
+	}
+
+	#fotos > input{
+		margin-top:65px;
+	}
+	
+	#libros_subidos{
+		font-size:0.8em;
+		width:250px;
+		min-height:130px;
+	}
+}
+

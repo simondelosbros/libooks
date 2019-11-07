@@ -1,0 +1,160 @@
+.recomendaciones{
+	float: left;
+	width: 96%;
+	height: auto;
+	
+	padding: 30px 50px;
+	padding-bottom: 65px;
+	margin: 0 2%;
+	margin-bottom: 20px;
+
+	border: groove var(--boton);
+	border-radius: 10px;
+	background-color: var(--columna);
+}
+
+.recomendaciones h2{
+	text-align: center;
+	font-size: 2em;
+}
+
+.recomendados{
+	float:left;
+	width: 100%;
+	height: auto;
+	
+	padding: 10px 30px;
+	margin: 10px 0;
+	margin-bottom: 60px;
+}
+
+.libro{
+	float: left;
+	width: 18%;
+	height: auto;
+	
+	margin: 1%;
+}
+
+.libro .imagen_libro{
+	float:left;
+	width:140px;
+	margin: 0 17px;
+	box-shadow: 6px 6px 2px grey;
+}
+
+.libro .titulo{
+	float: left;
+	margin: 5px;
+	font-size: 1em;	
+	letter-spacing: -1px;	
+}
+
+.libro .autor{
+	float: left;
+	margin: 5px;
+	font-size: 0.9em;	
+	font-variant: small-caps;
+}
+
+.libro .rodear{
+	float: left;
+	width: 100%;
+	height: 80px;
+	margin-top: 20px;
+	border: groove var(--boton_seleccion);
+	border-radius: 5px;
+	background-color: white;
+}
+
+.libro2{
+	width: 31%;
+	padding: 0 66px;
+}
+
+.del_mes{
+	float:left;
+	width: 100%;
+	height: 140px;
+	
+	background-color: var(--boton);
+	
+	padding: 10px 30px;
+	margin: 10px 0;
+	margin-top: 60px;
+}
+
+.del_mes .nombre{
+	width: 60%;
+	
+	margin: 40px 10px;
+	font-size:2em;
+	color: white;
+}
+
+.del_mes .nombre #peque{
+	font-size:0.7em;
+	color: white;
+	font-style: italic;
+}
+
+.del_mes .imagen{
+	width: 140px;
+	margin-top: -45px;
+	box-shadow: 6px 6px 2px grey;
+}
+
+.del_mes .izda{
+	float:left;
+}
+
+.del_mes .dcha{
+	float:right;
+	text-align: right;
+}
+
+@media only screen and (max-width: 480px) {
+	.recomendaciones{
+		padding: 20px;
+		padding-bottom: 80px;
+	}
+	
+	.recomendados{
+		padding: 0;
+		margin: 0;
+		margin-bottom: 60px;
+	}
+	
+	.libro, .libro2{
+		width:100%;
+		padding: 0;
+	}
+	
+	.libro .imagen_libro, .libro2 .imagen_libro{
+		width: 120px;
+		margin: 0 120px;
+	}
+	
+	.libro .titulo, .libro2 .titulo{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.libro .autor, .libro2 .autor{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.del_mes .nombre{
+		font-size: 1.5em;
+		margin: 20px -10px;
+	}
+	
+	.del_mes .imagen{
+		width: 120px;
+		margin-top: -30px;
+	}
+	
+
+}
+

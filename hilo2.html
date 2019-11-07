@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html	lang="es">
+
+<head>
+	<title>Libooks / La Octava Vida</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/libooks.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/foro.css"/>
+	<link rel="icon" type="image/png" href="resources/images/logo.png"/>
+</head>
+
+<body>
+	<header class="cabecera2">
+		<a href="index.php"><img id="logo" src="resources/images/logo.png" alt="logo_libooks"/></a>
+		
+		<a href="index.php"><h1 id="titulo">LIBOOKS</h1></a>
+		
+		<form id="acceso" action="index.php" method="post" name="desconectar">
+			<fieldset><legend>Conectado</legend>
+				<p id="user"><b>Usuario:</b> Simon_LV</p>
+				<p id="leidos"><b>Libros leídos:</b> 142</p>
+				<input class="boton_form" type="submit" value="Desconectar"/><br><br>
+				<a id="registro" href="datospersonales.html">Editar perfil</a>
+			</fieldset>			
+		</form>
+				
+		<nav class="navegacion">
+			<a href="mis_libros.php">Mis Libros</a>
+			<a href="foro.php">Foro</a>
+			<a href="recomendaciones_u1.php">Recomendaciones</a>
+		</nav>	
+	</header>
+	
+	<main class="principal">
+		<section class="hilo">
+			<section class="post par primero">
+				<p class="titulo_hilo">La octava vida - Nino Haratischwili</p>
+				<p class="descripcion_hilo">Giada » 19 de junio 2018 12:00</p>
+				<p class="texto_post">La crítica ha dicho...<br>
+«Una narración épica y tolstoiana combinada con una prosa luminosa y cierta dosis de realismo mágico. Nino Haratischwili ha demostrado ser una de las autoras más interesantes y originales de su generación.»<br>
+New Books<br>
+«Esta novela tiene todo lo necesario para convertirse en un libro leído durante años.»<br>
+Kultur Spiegel<br>
+«La octava vida es una obra clave que explica muchísimas cosas. Nino Haratischwili es una de las voces más importantes de la literatura alemana.»<br>
+Die Zeit<br>
+«Nino Haratischwili ha escrito un libro de un volumen exorbitante, pero en el que cada frase es necesaria.»<br>
+Frankfurter Allgemeine Zeitung<br>
+				</p>
+				<p class="responder"><a href=#responder>Responder</a></p>
+			</section>
+			<section class="post impar">
+				<p class="titulo_hilo">Re: La octava vida - Nino Haratischwili</p>
+				<p class="descripcion_hilo">Yppe » 19 Jun 2018 13:30</p>
+				<p class="texto_post">Me atrae mucho, en parte porque casi no podemos disfrutat de literatura georgiana o del Cáucaso en castellano. Aunque en esta novela el idioma original sea el alemán, supongo que de una escritora de ascendencia georgiana.<br>
+Acabo de ver que no sale hasta septiembre :( ya podía buscarlo en bibliotecas o librerías...<br>
+				</p>
+				<p id="Arden" class="responder"><a href=#responder>Responder</a></p>
+			</section>
+			<section class="post par">
+				<p class="titulo_hilo">Re: La octava vida - Nino Haratischwili</p>
+				<p class="descripcion_hilo">Arden » 18 Nov 2018 01:21</p>
+				<p class="texto_post">Dado que el próximo verano me voy a Georgia quiero leerme este libro, menudo tocho, pero con muy buena pinta.<br>
+Si alguien se quiere apuntar podemos poner una fecha.<br>
+				</p>
+				<p class="responder"><a href=#responder>Responder</a></p>
+			</section>
+			<section class="post impar">
+				<p class="titulo_hilo">Re: La octava vida - Nino Haratischwili</p>
+				<p class="descripcion_hilo">Giada » 18 Nov 2018 14:11</p>
+				<section class="respuesta">
+					<p class="responder"><a href=#Arden>Arden escribió:</a></p>
+					<p>Dado que el próximo verano me voy a Georgia quiero leerme este libro, menudo tocho, pero con muy buena pinta.<br>
+Si alguien se quiere apuntar podemos poner una fecha.<br></p>
+				</section>
+				<p class="texto_post">A mi me apetecería, Arden, pero tendría que ser ya de cara al 2019.<br>
+				¿Tenías alguna fecha en mente?<br>
+				</p>
+				<p class="responder"><a href=#responder>Responder</a></p>
+			</section>
+			<section class="post par ultimo">
+				<p class="titulo_hilo">Re: La octava vida - Nino Haratischwili</p>
+				<p class="descripcion_hilo">Yppe » 19 Nov 2018 00:42</p>
+				<section class="respuesta">
+					<p class="responder"><a href=#Arden>Arden escribió:</a></p>
+					<p>Dado que el próximo verano me voy a Georgia quiero leerme este libro, menudo tocho, pero con muy buena pinta.<br>
+Si alguien se quiere apuntar podemos poner una fecha.<br></p>
+				</section>
+				<p class="texto_post">Pues yo es uno de los destinos que tengo pensado para 2019 también! (Si me dejan)<br>
+Y el libro me interesa mucho<br>
+				</p>
+				<p class="responder"><a href=#responder>Responder</a></p>
+			</section>
+		</section>
+		
+		<form id="responder" action="hilo1.html" method="post" name="responder">
+			<h2 class="sombra">Responder al hilo:</h2>
+			<label for="responder_a">Responder a (opcional):<br>
+			<input class="texto_form" style="width: 300px;" type="text" name="nombre_hilo"/><br>
+			</label>
+				
+			<label for="respuesta_">Tu respuesta:<br>
+			<textarea class="texto_form_big" name="respuesta_"></textarea><br>
+			</label>
+			
+			<input id="boton_hilo" type="submit" value="Responder"/>
+		</form>
+	</main>
+	
+	
+	<footer class="pie_de_pagina">
+		<p id="contacto"><b>Contacto:</b> <a href="mailto:simondelosbros@correo.ugr.es" target="_blank">simondelosbros@correo.ugr.es</a></p>
+		
+		
+		<form id="suscripcion" action="" method="post" name="suscripcion">
+			¡Suscríbete a nuestra Newsletter! <br>
+			<input class="texto_form" type="email" onfocus="this.value=''" value="Tu correo electrónico" required/>
+			<input class="boton_form" type="submit" value="Suscribirse"/>		
+		</form>
+		
+		<p id="comosehizo"><a href="p2.pdf" target="_blank"><i>¿Cómo se hizo?</i><sup>[PDF]</sup></a></p>
+	</footer>
+	
+	
+</body>	
+</html>
+

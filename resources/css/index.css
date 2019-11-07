@@ -1,0 +1,117 @@
+.principal h2{
+	text-align: center;
+}
+
+.columna{	
+	float: left;
+	width: 46%;
+	height: auto;
+	min-height: 655px;
+	
+	padding: 10px;
+	margin: 0 2%;
+
+	border: groove var(--boton);
+	border-radius: 10px;
+	background-color: var(--columna);
+}
+
+.columna #descripcion{
+	float:left;
+	width: 57%;
+	padding: 0 5%;
+	text-align: justify;
+}
+
+.columna #relacionada{
+	float: left;
+	width: 220px;
+	height: 500px;
+	
+	border: groove var(--boton_seleccion);
+	border-radius: 10px;
+	
+}
+
+.libro{
+	float:left;
+	width: 100%;
+	height: auto;
+	
+	padding: 10px;
+	margin: 5px 0;
+	
+	border: groove var(--boton_seleccion);
+	border-radius: 10px;
+	background-color: var(--libro);
+}
+
+.imagen_libro{
+	float: left;
+	width: 100px;
+	
+	margin-right: 20px;
+	box-shadow: 6px 6px 2px grey;
+}
+
+.titulo_libro{
+	float: left;
+	width: 70%;
+	margin: 10px 0;
+	
+	font-size: 1.25em;	
+	font-variant: small-caps;
+}
+
+.autor{
+	float: left;
+	width: 70%;
+	margin: 10px 0;
+	
+	font-variant: small-caps;
+}
+
+#estrellas{
+	width: 100%;
+	
+	margin-bottom: -10px;
+	
+	font-size: 1.5em;
+	color: var(--estrella);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media only screen and (max-width: 480px) {
+	.columna{
+		width:96%;
+		margin-bottom: 15px;
+		min-height:0px;
+	}
+
+	.columna #descripcion{
+		float:left;
+		width: 50%;
+		text-align: justify;
+	}
+
+	.columna #relacionada{
+		width:180px;
+		margin-top:20px;
+		height:450px;
+	}
+	
+	.titulo_libro{
+		font-size: 1em;
+		width:60%;
+	}
+
+	.autor{
+		font-size: 0.9em;
+		width:60%;
+	}
+
+	#estrellas{
+		font-size: 1.2em;
+	}
+}
+
